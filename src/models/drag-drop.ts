@@ -1,15 +1,13 @@
-namespace App {
-	
-	console.log("drag-drop->");
+export { Draggable, DragTarget };
 
-	export interface Draggable {
-		dragStartHandler(event: DragEvent): void;
-		dragEndHandler(event: DragEvent): void;
-	}
+console.log("drag-drop->");
+ interface Draggable {
+	dragStartHandler(event: DragEvent): void;
+	dragEndHandler(event: DragEvent): void;
+}
 
-	export interface DragTarget {
-		dragOverHandler(event: DragEvent): void;
-		dragLeaveHandler(event: DragEvent): void;
-		dropHandler(event: DragEvent): void;
-	}
+interface DragTarget {
+	dragOverHandler(event: DragEvent): void;
+	dragLeaveHandler(event: DragEvent): void;
+	dropHandler(event: DragEvent): void;
 }
