@@ -5,9 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "jest --watchAll --verbose",
     "start": "live-server",
-    "build": "tsc app.ts -w",
+    "build": "tsc -w",
     "run": "node ./dist/app.js"
   },
   "author": "",
