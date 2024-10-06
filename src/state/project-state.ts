@@ -1,6 +1,6 @@
 export { ProjectState, projectState };
 
-import { Project, ProjectType } from "../models/project.js";
+import { Project, ProjectType } from "../models/project";
 
 console.log("project-state->");
 

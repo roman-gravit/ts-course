@@ -1,8 +1,10 @@
-import { ProjectInput } from "./components/project-input.js";
-import { ProjectList } from "./components/project-list.js";
-import { ProjectType } from "./models/project.js";
+import { ProjectInput } from "./components/project-input";
+import { ProjectList } from "./components/project-list";
+import { ProjectType } from "./models/project";
 
-console.log("app->");
+import "../style.css";
+
+console.log("app1 ->");
 
 new ProjectInput();
 new ProjectList(ProjectType.active);
