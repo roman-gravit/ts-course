@@ -117,6 +117,7 @@
   "include": [
     "./*.ts", 
     "./src/app.ts", 
-    "./src/basics.ts"  
+    "./src/basics.ts",
+    "./src/proxy.ts"  
   ]
 }

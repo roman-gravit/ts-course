@@ -3,5 +3,7 @@
 	"debug.console.fontSize": 16,
 	"scm.inputFontSize": 15,
 	"terminal.integrated.fontSize": 16,
-	"chat.editor.fontSize": 16
+	"chat.editor.fontSize": 16,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true
 }
